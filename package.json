@@ -9,8 +9,7 @@
     "bugs": {
         "url": "https://github.com/bitpay/bitcore-node/issues"
     },
-    "contributors": [
-        {
+    "contributors": [{
             "name": "Christopher Jeffrey"
         },
         {
@@ -28,9 +27,10 @@
     ],
     "bin": {
         "bitcore-node": "./bin/bitcore-node",
-        "bitcoind": "./bin/bitcoind"
+
     },
     "scripts": {
+        "bitcoind--": "./bin/bitcoind",
         "preinstall-": "./scripts/download",
         "verify": "./scripts/download --skip-bitcoin-download --verify-bitcoin-download",
         "test": "mocha -R spec --recursive",
