@@ -46,7 +46,7 @@
     "dependencies": {
         "async": "^1.3.0",
         "bitcoind-rpc": "^0.6.0",
-        "bitcore-lib": "http://git.etra.kr/bitpay/bitcore-lib/archive/master.tar.gz",
+        "bitcore-lib": "https://github.com/ventas-project/bitcore-lib.git",
         "body-parser": "^1.13.3",
         "colors": "^1.1.2",
         "commander": "^2.8.1",
